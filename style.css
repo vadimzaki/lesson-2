@@ -1,0 +1,300 @@
+*{padding: 0;
+margin: 0;}
+
+header{
+    margin: 0 auto 50px;
+    width: 1280px;
+height: 323px;
+padding: 50px;
+background-color: #445161;
+display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 7px 15px -3px black;
+}
+
+h1{
+font-family: Arial;
+font-size: 60px;
+line-height: 1.2;
+font-weight: 400;
+color: #ffffff;
+}
+
+.header-list{
+    list-style-position: inside;
+    list-style-image: url(img/check_icon_346.png);
+    margin-top: 10px;
+
+font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+font-weight: 400;
+color: #ffffff;
+}
+
+.header_img{
+    width: 469px;
+height: 214px;
+background-color: #ffffff;
+}
+.navigation{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+container {
+    box-sizing: border-box;
+    margin: 0 auto 100px;
+    width: 1280px;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.top_name{
+    font-family: Arial;
+font-size: 30px;
+line-height: 36px;
+font-weight: 400;
+color: #445161;
+margin-bottom: 30px;
+}
+
+.top_text{
+
+font-family: Arial;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+color: #333333;
+width: 650px;
+}
+
+.conteiner_img{
+    width: 430px;
+height: 245px;
+background-color: #445161;
+}
+
+.top_flex{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+.content{margin-bottom: 100px;}
+
+.dignity{
+    width: 1280px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.dignity-name{
+    text-align: center;
+    margin: 0 auto 50px;
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+.dignity-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    .dignity-item{
+        margin-bottom: 35px;
+        margin-left: 50px;
+        width: 540px;
+        font-family: Arial;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+color: #333333;
+list-style: none;
+position: relative;
+    } 
+ .marker{
+     position: absolute;
+     left: -40px;
+     top: 5px;
+ }
+
+ .Screenshots{
+     
+    width: 1280px;
+    box-sizing: border-box;
+    padding: 50px;
+ }
+
+ .Screenshots-name{
+     margin-bottom: 35px;
+    text-align: center;
+    font-family: Arial;
+font-size: 30px;
+line-height: 36px;
+font-weight: 400;
+color: #445161;
+ }
+
+.flex-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+ .Screenshots-card{
+     display: flex;
+     width: 590px;
+     margin-bottom: 50px;
+     
+ }
+
+ .card-item{
+     margin: 0 15px;
+ }
+ .card-item-name{
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+ }
+    
+.card-item-text{
+    font-family: Arial;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+color: #333333;
+}
+
+.Reviews{
+    width: 1280px;
+    height: 430px;
+    padding: 50px;
+    
+}
+.Reviews-name{
+    text-align: center;
+    font-family: Arial;
+font-size: 30px;
+line-height: 36px;
+font-weight: 400;
+color: #445161;
+margin-bottom: 35px;
+}
+
+.reviews-box{
+    display: flex;
+    align-items: start;
+    width: 600px;
+    margin: 24px 32px 0 0;
+}
+
+.reviews-face{margin-right: 16px;}
+
+.reviews-text{
+    font-family: Arial;
+font-size: 14px;
+line-height: 18px;
+margin-top: 5px;
+font-style: italic;
+color: #333333;
+}
+
+.reviews-back{
+    width: 483px;
+    height: 121px;
+    background-image: url(img/bg_review_190.png);
+    padding: 16px 25px;
+    box-sizing: border-box;
+}
+.reviews-boxing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.offer{
+    width: 1280px;
+height: 656px;
+padding: 50px 145px;
+box-sizing: border-box;
+}
+
+.offer-name{
+    text-align: center;
+    font-family: Arial;
+font-size: 30px;
+line-height: 36px;
+font-weight: 400;
+color: #445161;
+margin-bottom: 30px;
+}
+
+.offer-boxing{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.offer-box-standart{
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px 20px 40px;
+    text-align: center;
+    background-color: #445161;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.standart-name{
+    font-family: Arial;
+font-size: 24px;
+line-height: 30px;
+font-weight: 400;
+color: #ffffff;
+margin-bottom: 17px;
+}
+
+.standart-prace{
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    padding: 20px 0;
+
+    font-family: Arial;
+font-size: 40px;
+line-height: 30px;
+font-weight: 400;
+color: #445162;
+}
+
+.offer-list{
+    font-family: Arial;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #ffffff;
+margin: 100px 0 30px 20px;
+text-align: left;
+}
+
+.standart-button{
+    padding: 15px 110px;
+    background: #fff;
+    text-decoration: none;
+    font-family: Arial;
+font-size: 18px;
+line-height: 18px;
+font-weight: 700;
+color: #445161;
+margin-top: 50px;
+border-radius: 10px;
+}
