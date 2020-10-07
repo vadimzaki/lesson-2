@@ -264,7 +264,7 @@ margin-bottom: 17px;
 
 .standart-prace{
     background-color: #fff;
-    width: 100%;
+    width: 296px;
     position: absolute;
     right: 0px;
     padding: 20px 0;
@@ -274,6 +274,7 @@ font-size: 40px;
 line-height: 30px;
 font-weight: 400;
 color: #445162;
+border: 2px solid #445162;
 }
 
 .offer-list{
