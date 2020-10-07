@@ -2,8 +2,8 @@
 margin: 0;}
 
 header{
-    margin: 0 auto 50px;
-    width: 1280px;
+width: 100%;
+margin-bottom: 50px;
 height: 323px;
 padding: 50px;
 background-color: #445161;
@@ -79,7 +79,8 @@ background-color: #445161;
 .top_flex{
     display: flex;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 0 auto 50px
+    ;
 
 }
 
